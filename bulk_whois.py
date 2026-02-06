@@ -2,7 +2,7 @@ import requests
 import csv
 import time
 
-API_KEY = "at_Ug4xg4E2v3HoAYRjsuC8A99pSn7b9"
+API_KEY = "PUT YOUR KEY HERE"
 
 DOMAINS_FILE = r"C:\Users\Jayesh\Downloads\domains.txt"
 OUTPUT_FILE = r"C:\Users\Jayesh\Downloads\whoisxml_results.csv"
@@ -60,3 +60,4 @@ with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
     writer.writerows(results)
 
 print(f"\nSaved: {OUTPUT_FILE}")
+
